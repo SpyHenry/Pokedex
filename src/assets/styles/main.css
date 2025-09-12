@@ -157,6 +157,33 @@ h1:hover {
   height: 120px;
 }
 
+#loadMoreButton {
+    margin: 30px auto;
+    padding: 12px 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #000000;
+    background: linear-gradient(45deg, #ff0000, #fdda27, #0017c7);
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: transform 0.2s, box-shadow 0.2s, filter 0.2s;
+    display: block;
+}
+
+#loadMoreButton:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+    filter: brightness(1.1);
+}
+
+#loadMoreButton:active {
+    transform: scale(0.95);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+
 /* Responsividade */
 @media (max-width: 1024px) {
     h1 { font-size: 2.5rem; }
