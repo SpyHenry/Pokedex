@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
+
+* {
+    font-family: "Jersey 15", sans-serif;
+    font-weight: 150;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
