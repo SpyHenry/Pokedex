@@ -1,4 +1,4 @@
-# 🔴 Pokédex 
+# 🔴 Pokedex 
 Uma Pokédex interativa inspirada no universo Pokémon! Permite visualizar informações dos Pokémon de forma simples e divertida.  
 
 ## ✨ Funcionalidades  
